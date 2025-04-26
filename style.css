@@ -7323,8 +7323,8 @@ textarea.form-control-lg {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-bottom: .5rem;
-    padding-top: .5rem;
+    padding-bottom: .4rem;
+    padding-top: .4rem;
     position: relative
 }
 

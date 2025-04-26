@@ -2226,7 +2226,7 @@
         </div>
       </div>
     </div>
-    <style>
+    <!-- <style>
         df-messenger {
          --df-messenger-bot-message: #878fac;
          --df-messenger-button-titlebar-color: #df9b56;
@@ -2242,7 +2242,26 @@
         chat-title="SaylaniMassItTraining"
         agent-id="ad131c99-34d6-447f-ae27-6dc0d8c831e3"
         language-code="en"
-    ></df-messenger>
+    ></df-messenger> -->
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="SMIT"
+  chat-icon="data:image/jpeg;base64,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"
+  expand="true"
+  agent-id="fd1fa1e0-7379-45e7-9b6b-c06851b396d7"
+  language-code="en"
+></df-messenger>
+<style>
+    df-messenger{
+        --df-messenger-bot-message:#8dc63f;
+        --df-messenger-button-titlebar-color: #3b82f6;
+        --df-messenger-chat-background-color: #fafafa;
+   --df-messenger-font-color: white;
+   --df-messenger-send-icon: #878fac;
+   --df-messenger-user-message: #3b82f6;
+    }
+</style>
   </body>
 
   <script src="assest/js/app.js"></script>
